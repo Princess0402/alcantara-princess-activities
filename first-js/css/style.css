@@ -8,7 +8,7 @@
             height: 100vh;
         }
         .box {
-            background: rgba(174, 80, 155, 0.838);
+            background: rgba(162, 146, 149, 0.838);
             padding: 20px;
             width: 250px;
             border-radius: 10px;
@@ -22,7 +22,7 @@
         button {
             width: 50%;
             padding: 8px;
-            background-color: rgb(255, 0, 0);
+            background-color: rgb(66, 3, 6);
             color: white;
             border: none;
         }
