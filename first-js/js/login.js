@@ -4,7 +4,7 @@ function login() {
 
    const error = document.getElementById("error");
 
-   if((username == "Princess") && (password == "1234")) {
+   if((username == "Francois") && (password == "1234")) {
     error.innerHTML = "Login successful";
     error.style.color = 'green';
     error.style.backgroundcolor = 'yellow'

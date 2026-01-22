@@ -6,7 +6,7 @@ function register() {
 
    const error = document.getElementById("error");
 
-   if ((username == "Princess") && (password == "1234") && (confirmPassword == "1234") && (fullName == "Princess")) {
+   if ((username == "Francois") && (password == "1234") && (confirmPassword == "1234") && (fullName == "Princess")) {
       error.innerHTML = "Register successful";
       error.style.color = 'green';
       error.style.backgroundcolor = 'yellow'
