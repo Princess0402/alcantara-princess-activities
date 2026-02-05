@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: hwb(330 45% 26%);
+    padding: 20px;
+}
+
+.container {
+    background: hwb(339 29% 31%);
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.filters {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid oklch(92.6% 0.00954 351.749);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: #c06a92;
+}
