@@ -1,0 +1,161 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    background: linear-gradient(135deg, #f3e8ff, #ede9fe, #e9d5ff);
+    color: #2e1a47;
+    min-height: 100vh;
+}
+
+/* ===== Login Section ===== */
+.login-container {
+    width: 360px;
+    margin: 100px auto;
+    padding: 35px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(147, 51, 234, 0.25);
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.login-container h2 {
+    margin-bottom: 25px;
+    color: #7c3aed;
+    font-weight: 600;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c4b5fd;
+    border-radius: 12px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.login-container input:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.35);
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #8b5cf6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background: #6d28d9;
+    transform: scale(1.05);
+}
+
+#message {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* ===== Student Section ===== */
+#studentSection {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(147, 51, 234, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+#studentSection h2 {
+    margin-bottom: 20px;
+    color: #7c3aed;
+}
+
+/* ===== Table ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(147, 51, 234, 0.15);
+    background-color: #fff;
+}
+
+thead {
+    background-color: #8b5cf6;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+tr:nth-child(even) {
+    background-color: #ede9fe;
+}
+
+tr:hover {
+    background-color: #ddd6fe;
+    transition: 0.3s;
+}
+
+/* ===== Logout Button ===== */
+.logout-button {
+    padding: 10px 25px;
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #5b21b6;
+    transform: scale(1.05);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .logout-button {
+        width: 100%;
+    }
+}
